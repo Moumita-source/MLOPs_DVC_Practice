@@ -14,6 +14,9 @@ df = pd.DataFrame(data)
 new_row = ['Moumita', 'palitmoumita5@gamil.com', 'mou', 'False']
 df.loc[len(df.index)] = new_row
 
+# Add a row in the dataframe
+new_row = ['Surabhi', 'surabhi@gamil.com', 'surabhi', 'True']
+df.loc[len(df.index)] = new_row
 
 dir = 'data'
 os.makedirs(dir, exist_ok= True)
