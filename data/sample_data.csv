@@ -1,4 +1,0 @@
-name,username,password,loggedin
-Default User,default@example.com,12345,False
-Alice,alice@mail.com,alicepwd,True
-Bob,bob@mail.com,bobpwd,False
